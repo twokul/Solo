@@ -62,10 +62,6 @@ a:hover {
   border-color: rgba(244, 18, 36, 0.3) !important;
 }
 
-.gh-content p a {
-  border-bottom: 1px solid #f41224 !important;
-}
-
 hr {
   background-color: var(--color-border);
 }
