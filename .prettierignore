@@ -1,2 +1,5 @@
-assets
-
+assets/built/
+assets/js/lib/
+*.hbs
+dist/
+node_modules/
