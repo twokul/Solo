@@ -1,7 +1,7 @@
 {
   "name": "shade",
   "description": "A Ghost theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "engines": {
     "ghost": ">=5.0.0"
@@ -94,7 +94,7 @@
     "dev": "gulp",
     "test": "gscan .",
     "format": "prettier --write .",
-    "zip": "gulp zip"
+    "zip": "rm -rf dist && gulp zip"
   },
   "devDependencies": {
     "@tryghost/shared-theme-assets": "2.5.0",
