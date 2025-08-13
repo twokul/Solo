@@ -1,13 +1,6 @@
-# Solo
+# Shade
 
-Solo is a minimal theme for [Ghost](https://github.com/TryGhost/Ghost) focused on showcasing the work of an individual writer or creator. This theme is highly customizable, with a few simple settings that allow you to quickly apply your own personal style to your site.
-
-**Demo: https://solo.ghost.io**
-
-# Instructions
-
-1. [Download this theme](https://github.com/TryGhost/Solo/archive/main.zip)
-2. Log into Ghost, and go to the `Design` settings area to upload the zip file
+Shade is a minimal theme for [Ghost](https://github.com/TryGhost/Ghost) based on [Solo](https://github.com/TryGhost/Solo).
 
 # Development
 
