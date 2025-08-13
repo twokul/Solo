@@ -55,15 +55,6 @@
         ],
         "default": "Logo on the left"
       },
-      "typography": {
-        "type": "select",
-        "options": [
-          "Modern sans-serif",
-          "Elegant serif",
-          "Consistent mono"
-        ],
-        "default": "Modern sans-serif"
-      },
       "footer_text": {
         "type": "text"
       },

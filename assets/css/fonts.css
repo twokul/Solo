@@ -1,29 +1,20 @@
 @font-face {
-    font-family: Manrope;
-    font-weight: 100 1000;
-    src: url("../fonts/Manrope[wght].woff2") format("woff2-variations");
-}
-
-@font-face {
-    font-family: "Libre Baskerville";
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 100 900;
     font-style: normal;
-    font-weight: 400;
-    src: local(""), url("../fonts/libre-baskerville-v14-latin-regular.woff2") format("woff2");
+    src: local("")
 }
 
 @font-face {
-    font-family: "Libre Baskerville";
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100 900;
     font-style: normal;
-    font-weight: 700;
-    src: local(""), url("../fonts/libre-baskerville-v14-latin-700.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Libre Baskerville";
-    font-style: italic;
-    font-weight: 400;
-    src: local(""), url("../fonts/libre-baskerville-v14-latin-italic.woff2") format("woff2");
-}
+    font-variation-settings:
+      "wdth" 100;
+    src: local("")
+  }
 
 @font-face {
     font-family: "JetBrains Mono";
