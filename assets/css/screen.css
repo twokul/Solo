@@ -73,7 +73,7 @@ hr {
 
 .gh-content blockquote {
   font-style: italic;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   color: var(--color-secondary-text);
   border-left-color: var(--color-secondary-text);
 }
