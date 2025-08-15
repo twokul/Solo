@@ -645,6 +645,12 @@ hr {
   flex-direction: column;
 }
 
+@media (max-width: 767px) {
+  .gh-content.gh-canvas {
+    width: 100% !important;
+  }
+}
+
 .gh-article-meta {
   /* top: 0; */
   /* bottom: 0; */
