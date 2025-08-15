@@ -639,6 +639,12 @@ hr {
 /* Article
 /* ---------------------------------------------------------- */
 
+.gh-content .gh-canvas {
+  width: 960px;
+  display: flex !important;
+  flex-direction: column;
+}
+
 .gh-article-meta {
   /* top: 0; */
   /* bottom: 0; */
