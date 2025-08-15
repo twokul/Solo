@@ -86,7 +86,8 @@ hr {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
-.gh-canvas > .page-template .no-image :is(.gh-article-title, .gh-article-excerpt) {
+.gh-canvas > *,
+.page-template .no-image :is(.gh-article-title, .gh-article-excerpt) {
   grid-column: 4 / span 6;
 }
 
@@ -103,7 +104,8 @@ hr {
 }
 
 @media (max-width: 991px) {
-  .gh-canvas > .page-template .no-image :is(.gh-article-title, .gh-article-excerpt) {
+  .gh-canvas > *,
+  .page-template .no-image :is(.gh-article-title, .gh-article-excerpt) {
     grid-column: 3 / span 8;
   }
 
@@ -113,7 +115,8 @@ hr {
 }
 
 @media (max-width: 767px) {
-  .gh-canvas > .page-template .no-image :is(.gh-article-title, .gh-article-excerpt) {
+  .gh-canvas > *,
+  .page-template .no-image :is(.gh-article-title, .gh-article-excerpt) {
     grid-column: 2 / span 10;
   }
 
@@ -123,7 +126,8 @@ hr {
 }
 
 @media (max-width: 480px) {
-  .gh-canvas > .page-template .no-image :is(.gh-article-title, .gh-article-excerpt) {
+  .gh-canvas * >,
+  .page-template .no-image :is(.gh-article-title, .gh-article-excerpt) {
     grid-column: 1 / span 12;
   }
 }
@@ -656,7 +660,7 @@ hr {
 
 .gh-article-meta .gh-author-image-list {
   display: flex;
-  /* margin-bottom: 12px; */
+  margin-bottom: 12px;
   margin-left: -2px;
 }
 
