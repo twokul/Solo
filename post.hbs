@@ -5,8 +5,36 @@
         {{#post}}
             <article class="gh-article {{post_class}}">
                 {{#if feature_image}}
-                    <header class="gh-article-header gh-canvas">
+                    <header class="gh-article-header">
                         <h1 class="gh-article-title">{{title}}</h1>
+                        <div class="gh-article-meta">
+                            <div class="gh-article-meta-inner">
+                                {{!-- <div class="gh-author-image-list instapaper_ignore">
+                                    {{#foreach authors}}
+                                        <a class="gh-author-image" href="{{url}}">
+                                            {{#if profile_image}}
+                                                <img src="{{profile_image}}" alt="{{name}}">
+                                            {{else}}
+                                                <div class="gh-author-icon">{{> icons/avatar}}</div>
+                                            {{/if}}
+                                        </a>
+                                    {{/foreach}}
+                                </div> --}}
+                                <div class="gh-article-meta-wrapper">
+                                    {{!-- <div class="gh-author-name-list">
+                                        {{authors}}
+                                    </div> --}}
+                                    <time class="gh-article-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMM YYYY"}}</time>
+                                </div>
+                                {{#if tags}}
+                                    <div class="gh-article-tag-list">
+                                        {{#foreach tags}}
+                                            <a class="gh-article-tag" href="{{url}}" style="--tag-color: {{accent_color}}">{{name}}</a>
+                                        {{/foreach}}
+                                    </div>
+                                {{/if}}
+                            </div>
+                        </div>
                         {{#if custom_excerpt}}
                             <p class="gh-article-excerpt">{{custom_excerpt}}</p>
                         {{/if}}
@@ -24,34 +52,7 @@
                             {{/if}}
                         </header>
                     {{/unless}}
-                    <aside class="gh-article-meta">
-                        <div class="gh-article-meta-inner">
-                            <div class="gh-author-image-list instapaper_ignore">
-                                {{#foreach authors}}
-                                    <a class="gh-author-image" href="{{url}}">
-                                        {{#if profile_image}}
-                                            <img src="{{profile_image}}" alt="{{name}}">
-                                        {{else}}
-                                            <div class="gh-author-icon">{{> icons/avatar}}</div>
-                                        {{/if}}
-                                    </a>
-                                {{/foreach}}
-                            </div>
-                            <div class="gh-article-meta-wrapper">
-                                <div class="gh-author-name-list">
-                                    {{authors}}
-                                </div>
-                                <time class="gh-article-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMM YYYY"}}</time>
-                            </div>
-                            {{#if tags}}
-                                <div>
-                                    {{#foreach tags}}
-                                        <a class="gh-article-tag" href="{{url}}" style="--tag-color: {{accent_color}}">{{name}}</a>
-                                    {{/foreach}}
-                                </div>
-                            {{/if}}
-                        </div>
-                    </aside>
+                    
                 </section>
 
                 {{#if comments}}
