@@ -639,7 +639,7 @@ hr {
 /* Article
 /* ---------------------------------------------------------- */
 
-.gh-content .gh-canvas {
+.gh-content.gh-canvas {
   width: 960px;
   display: flex !important;
   flex-direction: column;
